@@ -1,0 +1,201 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "type": "Manifest",
+  "id": "https://www.arc.ritsumei.ac.jp/3/manifest/BLMAP-0309_001/info.json",
+  "label": {
+    "en": [
+      "Kosei nihon yochi zenzu [Revised complete map of Japan]"
+    ],
+    "ja": [
+      "校正日本輿地全図（凡例題）"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "items": [
+    {
+      "type": "Canvas",
+      "id": "https://www.arc.ritsumei.ac.jp/3/canvas/BLMAP-0309_001",
+      "label": {
+        "en": [
+          "Kosei nihon yochi zenzu [Revised complete map of Japan]"
+        ],
+        "ja": [
+          "校正日本輿地全図（凡例題）"
+        ]
+      },
+      "width": 10124,
+      "height": 7012,
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "id": "https://www.arc.ritsumei.ac.jp/3/manifest/BLMAP-0309_001/page/p1/1",
+          "items": [
+            {
+              "type": "Annotation",
+              "id": "https://www.arc.ritsumei.ac.jp/3/manifest/BLMAP-0309_001/page/p1/1/annotation/a1",
+              "motivation": "painting",
+              "body": {
+                "type": "Image",
+                "id": "https://www.arc.ritsumei.ac.jp/iiif/3/image/BLMAP-0309_001/full/max/0/default.jpg",
+                "format": "image/jpeg",
+                "height": 7012,
+                "width": 10124,
+                "service": [
+                  {
+                    "type": "ImageService3",
+                    "id": "https://www.dh-jac.net/db/maps/BLMAP-0309_001/BL/iiif/3/image/info.json",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://www.arc.ritsumei.ac.jp/3/manifest/BLMAP-0309_001/canvas/1"
+            }
+          ]
+        }
+      ],
+      "thumbnail": [
+        {
+          "type": "Image",
+          "id": "https://www.arc.ritsumei.ac.jp/iiif/3/image/BLMAP-0309_001/square/!200,200/0/default.jpg",
+          "format": "image/jpeg"
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Year of publication"
+            ],
+            "ja": [
+              "成立・出版年(和暦)"
+            ]
+          },
+          "value": {
+            "none": [
+              "Published in 1854 by Kikuya Kozaburo of Edo"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Cartographer"
+            ],
+            "ja": [
+              "作成者"
+            ]
+          },
+          "value": {
+            "en": [
+              "Anonymous"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Title"
+            ],
+            "ja": [
+              "タイトル"
+            ]
+          },
+          "value": {
+            "en": [
+              "Kosei nihon yochi zenzu [Revised complete map of Japan]"
+            ],
+            "ja": [
+              "校正日本輿地全図（凡例題）"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Medium"
+            ],
+            "ja": [
+              "媒体"
+            ]
+          },
+          "value": {
+            "en": [
+              "Xylograph. Acquired 22 July 1868. Ex-Siebold."
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Map Notes"
+            ]
+          },
+          "value": {
+            "ja": [
+              "＊多色刷り。刊記「東都浅草玉樹軒蔵梓」。刊年及び蔵版者は附図による。結城甘泉序。"
+            ]
+          }
+        },
+         {
+          "label": {
+            "en": [
+              "Map Location"
+            ],
+            "ja": [
+              "地図の位置"
+            ]
+          },
+          "value": {
+            "none": [
+              "大英図書館 British Library"
+            ]
+          }
+        },
+         {
+          "label": {
+            "none": [
+              "Shelfmark"
+            ]
+          },
+          "value": {
+            "none": [
+              "Maps 62980.(19)"
+            ]
+          }
+        },
+         {
+          "label": {
+            "en": [
+              "Collection"
+            ],
+            "ja": [
+              "所蔵"
+            ]
+          },
+          "value": {
+            "none": [
+              "大英図書館 British Library"
+            ]
+          }
+        },
+         {
+          "label": {
+            "en": [
+              "Year of publication in Japanese calendar"
+            ],
+            "ja": [
+              "成立・出版年(和暦)"
+            ]
+          },
+          "value": {
+            "none": [
+              "嘉永7&lt;1854&gt;序刊（江戸、菊屋幸三郎）"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

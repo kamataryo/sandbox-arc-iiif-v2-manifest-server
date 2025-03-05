@@ -1,0 +1,85 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://kamataryo.github.io/sandbox-arc-iiif-v2-manifest-server/manifest_v2_fixed.json",
+  "@type": "sc:Manifest",
+  "label": "Kosei nihon yochi zenzu [Revised complete map of Japan]",
+  "metadata": [
+    {
+      "label": "Year of publication",
+      "value": "Published in 1854 by Kikuya Kozaburo of Edo"
+    },
+    {
+      "label": "Cartographer",
+      "value": "Anonymous"
+    },
+    {
+      "label": "Title",
+      "value": "Kosei nihon yochi zenzu [Revised complete map of Japan]"
+    },
+    {
+      "label": "Medium",
+      "value": "Xylograph. Acquired 22 July 1868. Ex-Siebold."
+    },
+    {
+      "label": "Map Notes",
+      "value": "＊多色刷り。刊記「東京浅草玉樹堂蔵梓」。刊年及び蔵版者は附図による。結城甘泉序。"
+    },
+    {
+      "label": "Map Location",
+      "value": "大英図書館 British Library"
+    },
+    {
+      "label": "Shelfmark",
+      "value": "Maps 62980.(19)"
+    },
+    {
+      "label": "Collection",
+      "value": "大英図書館 British Library"
+    },
+    {
+      "label": "Year of publication in Japanese calendar",
+      "value": "嘉永7〈1854〉序刊（江戸、菊屋幸三郎）"
+    }
+  ],
+  "viewingHint": "paged",
+  "thumbnail": {
+    "@id": "https://www.arc.ritsumei.ac.jp/iiif/3/image/BLMAP-0309_001/square/!200,200/0/default.jpg",
+    "@type": "dctypes:Image",
+    "format": "image/jpeg"
+  },
+  "sequences": [
+    {
+      "@id": "https://www.arc.ritsumei.ac.jp/3/manifest/BLMAP-0309_001/sequence/normal",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://www.arc.ritsumei.ac.jp/3/manifest/BLMAP-0309_001/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "Kosei nihon yochi zenzu [Revised complete map of Japan]",
+          "width": 10124,
+          "height": 7012,
+          "images": [
+            {
+              "@id": "https://www.arc.ritsumei.ac.jp/3/manifest/BLMAP-0309_001/page/p1/1/annotation/a1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.arc.ritsumei.ac.jp/iiif/3/image/BLMAP-0309_001/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 10124,
+                "height": 7012,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.dh-jac.net/db/maps/BLMAP-0309_001/BL/iiif/3/image",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://www.arc.ritsumei.ac.jp/3/manifest/BLMAP-0309_001/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
