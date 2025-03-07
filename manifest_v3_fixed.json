@@ -45,7 +45,7 @@
                 "service": [
                   {
                     "type": "ImageService3",
-                    "id": "https://www.dh-jac.net/db/maps/BLMAP-0309_001/BL/iiif/3/image/info.json",
+                    "id": "https://www.arc.ritsumei.ac.jp/iiif/3/image/BLMAP-0309_001",
                     "profile": "level2"
                   }
                 ]
