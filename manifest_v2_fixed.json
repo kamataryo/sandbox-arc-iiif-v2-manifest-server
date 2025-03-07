@@ -71,7 +71,7 @@
                 "height": 7012,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://www.dh-jac.net/db/maps/BLMAP-0309_001/BL/iiif/3/image",
+                  "@id": "https://www.arc.ritsumei.ac.jp/iiif/3/image/BLMAP-0309_001",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
